@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+	<div class='container'>
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+		<nav>
+			<img src="Artboard 22.png" class="logo">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+		<div class="text-box">
+			<h1>HAIR <br>DAY</h1>
+            <p> </p>
+			<div class='row'>
+                <div class="card">
+                    <img src="firstc.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h2><b>Hair Cut</b></h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ut, maiores optio architecto recusandae aperiam officiis autem dolorum quia incidunt, laudantium fugiat magni repellendus ab esse minima dolor, praesentium id?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="all.png" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h2><b>Multi Purpose</b></h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam id quo, dicta voluptatem beatae cupiditate, delectus ipsa, iusto impedit expedita corrupti reiciendis odio recusandae aliquid iste perferendis fugit magnam?</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="third.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h2><b>Colouring</b></h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam id quo, dicta voluptatem beatae cupiditate, delectus ipsa, iusto impedit expedita corrupti reiciendis odio recusandae aliquid iste perferendis fugit magnam?</p>
+                    </div>
+                  </div>
+			</div>
+		</div>
+		<div class="app-picture">
+          <img src="Artboard 19.png" >
+        </div>
+	</div>
+    <footer>
+        <div class="footer">
+            <img src="Artboard 23.png" class="logo">
+            @Copyright <a href="https://www.youtube.com/channel/UCSLS8tCSYBQ5BW1vBjlzakQ"> MR </a> 2022- All Right Reserved.
+            <a href="https://www.instagram.com/mayukhroy007/?hl=en">Insta Handle</a>
+        </div>
+    </footer>
+    
+<!-----cursor------>
+	<div id='cursor'></div>
+
+
+	<script>
+		var cursor= document.getElementById('cursor');
+
+		document.onmousemove = function(e){
+			cursor.style.left=(e.pageX - 25)+"px" ;
+			cursor.style.top=(e.pageY - 25)+"px" ;
+			cursor.style.display='block';
+		}
+	</script>
+
+</body>
+</html>
